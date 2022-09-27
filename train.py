@@ -103,5 +103,3 @@ for epoch in range(num_epochs):
 
 PATH = './model_train_net2.pth'
 torch.save(model.state_dict(), PATH)
-
-#グラフの正答率と全体の正答率が一致した
